@@ -1,8 +1,10 @@
-import React, { Fragment, useContext, createContext } from 'react';
+import React, { Fragment, useContext, lazy } from 'react';
 
 import './shop-page.css';
 
 import { ItemsContext } from "../../contexts/providers/item-provider.jsx"
+
+const ItemsCard = lazy(() => import("../../components/items-card/items-card.jsx"))
 
 
 
@@ -12,7 +14,13 @@ const ShopPage = () => {
     console.log(value)
     return (
         <Fragment>
-            <span>hi</span>
+            <div className="item-map">
+                {
+                    value.items.map(item =>
+                        <ItemsCard item={item} />
+                    )
+                }
+            </div>
         </Fragment>
     )
 }
