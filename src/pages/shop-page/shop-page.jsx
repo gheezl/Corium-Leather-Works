@@ -1,4 +1,4 @@
-import React, { Fragment, useContext, lazy } from 'react';
+import React, { Fragment, useContext, lazy, Suspense } from 'react';
 
 import './shop-page.css';
 
@@ -15,11 +15,13 @@ const ShopPage = () => {
     return (
         <Fragment>
             <div className="item-map">
-                {
-                    value.items.map(item =>
-                        <ItemsCard item={item} />
-                    )
-                }
+                <Suspense fallback="loading...">
+                    {
+                        value.items.map(item =>
+                            <ItemsCard item={item} />
+                        )
+                    }
+                </Suspense>
             </div>
         </Fragment>
     )
