@@ -8,6 +8,7 @@
     margin-top: 75px;
     width: 384px;
     height: 512px;
+    border: 1px 1px 1px 1px solid black;
 }
 
 .item-drop-down {

@@ -3,9 +3,14 @@
     padding: 25px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    box-shadow: 1px 1px black;
     font-size: 30px;
-    color: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.87);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: +1;
 }
 
 .title {

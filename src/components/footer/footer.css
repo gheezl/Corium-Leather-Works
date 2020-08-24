@@ -1,0 +1,40 @@
+.footer-header {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    padding: 25px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.footer-border {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    color: white;
+}
+
+.email {
+    display: flex;
+    justify-content: right;
+    margin-right: 5px;
+}
+
+.email-address {
+    margin-left: 5px;
+}
+
+.phone {
+    display: flex;
+    justify-content: right;
+    margin-right: 5px;
+}
+
+.phone-number {
+    margin-left: 5px;
+}

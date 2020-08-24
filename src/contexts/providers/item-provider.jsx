@@ -34,7 +34,7 @@ class ItemsProvider extends Component {
                     name: "Braided Braclet",
                     price: "$15",
                     description: "A hand braided wrist bracelet.",
-                    img: [braidedBracelet1, braidedBracelet2, braidedBracelet3, braidedBracelet4],
+                    img: [braidedBracelet1, braidedBracelet2, braidedBracelet4],
                     url: "https://www.amazon.com/"
                 },
                 {
@@ -49,6 +49,15 @@ class ItemsProvider extends Component {
                 },
                 {
                     img: [braidedBracelet2]
+                },
+                {
+                    img: [multiPurposeBeltLoop3]
+                },
+                {
+                    img: [braidedBracelet3]
+                },
+                {
+                    img: [tapeMeasureClip3]
                 }
             ]
         }
