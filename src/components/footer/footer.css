@@ -15,7 +15,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
     color: white;
 }
 
@@ -37,4 +36,26 @@
 
 .phone-number {
     margin-left: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact {
+        font-size: 15px;
+    }
+
+    .email {
+         font-size: 12px;
+    }
+
+    .email-address {
+        font-size: 12px;
+    }
+
+    .phone {
+        font-size: 12px;
+    }
+
+    .phone-number {
+        font-size: 12px;
+    }
 }

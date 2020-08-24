@@ -1,8 +1,6 @@
 .header-border  {
-    display: grid;
+    display: flex;
     padding: 25px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     font-size: 30px;
     color: white;
     background-color: rgba(0, 0, 0, 0.87);
@@ -20,19 +18,9 @@
     grid-column-end: 1;
 }
 
-.shop-link {
-    display: flex;
-    justify-content: right;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
 
 @media only screen and (max-width: 800px) {
     .title {
-        font-size: 15px;
-    }
-
-    .shop-link {
         font-size: 15px;
     }
 }

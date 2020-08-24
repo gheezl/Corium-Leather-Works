@@ -4,6 +4,9 @@ import './shop-page.css';
 
 import { ItemsContext } from "../../contexts/providers/item-provider.jsx"
 
+
+import Loader from '../../components/loader/loader.jsx';
+
 const ItemsCard = lazy(() => import("../../components/items-card/items-card.jsx"))
 
 
@@ -16,7 +19,7 @@ const ShopPage = () => {
         <Fragment>
             <span className="shop-page-header">All Our Products</span>
             <div className="item-map">
-                <Suspense fallback="loading...">
+                <Suspense fallback={<Loader />}>
                     {
                         value.items.map(item =>
                             <ItemsCard item={item} />
