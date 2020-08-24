@@ -14,7 +14,7 @@ const ShopPage = () => {
     console.log(value)
     return (
         <Fragment>
-            <span className="shop-page-header">All Products</span>
+            <span className="shop-page-header">All Our Products</span>
             <div className="item-map">
                 <Suspense fallback="loading...">
                     {

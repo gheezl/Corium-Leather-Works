@@ -32,16 +32,15 @@ const ItemsCard = (item) => {
                     width="384" height="512"
                 />
                 <button onClick={onRight} className="right">🡲</button>
-                <a className="buy-product" >Buy Product on Amazon</a>
+                <a href={item.item.url} className="buy-product" >Buy Product on Amazon</a>
                 {
                     toggle
                         ? (
                             <Fragment>
-
-                                <span className="item-name">{item.item.name}: {item.item.price}</span>
-                                <div className="item-drop-down">
+                                <span className="item-name">{item.item.name} : {item.item.price}</span>
+                                {/* <div className="item-drop-down">
                                     <span className="item-description">{item.item.description}</span>
-                                </div>
+                                </div> */}
                             </Fragment>
                         )
                         : (null)

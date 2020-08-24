@@ -5,12 +5,9 @@
 }
 
 .item-image {
-    box-shadow: 1px 1px black;
     margin-top: 75px;
-}
-
-.item-image:hover {
-    box-shadow: 2px 2px black;
+    width: 384px;
+    height: 512px;
 }
 
 .item-drop-down {
@@ -24,8 +21,12 @@
 
 .item-name {
     position: absolute;
-    margin-top: 45px;
+    margin-top: 100px;
     font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 15px;
 }
 
 .scroll-arrows {
@@ -41,7 +42,7 @@
     border-radius: 40%;
     padding: 10px;
     background-color: white;
-    transition: 0.5s;
+    transition: background-color 0.5s;
 }
 
 .left:hover {
@@ -57,7 +58,7 @@
     border-radius: 40%;
     padding: 10px;
     background-color: white;
-    transition: 0.5s;
+    transition: background-color 0.5s;
 }
 
 .right:hover {
@@ -73,10 +74,35 @@
     padding: 25px;
     border-radius: 50px;
     cursor: pointer;
-    transition: 0.5s;
+    color: black;
+    transition: background-color 0.5s;
 }
 
 .buy-product:hover {
     background-color: transparent;
     color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .item-image {
+        width: 250px;
+        height: 325px;
+        margin-top: 25px;
+    }
+
+    .right {
+        margin-top: 175px;
+        margin-left: 300px;
+    }
+
+    .left {
+        margin-top: 175px;
+        margin-right: 300px;
+    }
+
+    .buy-product {
+        margin-top: 290px;
+        font-size: 12px;
+        padding: 15px;
+    }
 }

@@ -7,5 +7,17 @@
 
 .item-map {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, 475px);
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .shop-page-header {
+        font-size: 15px;
+    }
+
+    .item-map {
+        display: flex;
+        flex-direction: column;
+    }
 }

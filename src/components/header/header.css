@@ -5,6 +5,7 @@
     grid-template-rows: 1fr;
     box-shadow: 1px 1px black;
     font-size: 30px;
+    color: black;
 }
 
 .title {
@@ -19,4 +20,14 @@
     justify-content: right;
     grid-column-start: 2;
     grid-column-end: 2;
+}
+
+@media only screen and (max-width: 800px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .shop-link {
+        font-size: 15px;
+    }
 }

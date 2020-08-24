@@ -27,19 +27,22 @@ class ItemsProvider extends Component {
                     name: "Multipurpose Belt Loop",
                     price: "$15",
                     description: "A belt loop for hammers, hatchets, and etc.",
-                    img: [multiPurposeBeltLoop1, multiPurposeBeltLoop2, multiPurposeBeltLoop3]
+                    img: [multiPurposeBeltLoop1, multiPurposeBeltLoop2, multiPurposeBeltLoop3],
+                    url: "https://www.amazon.com/"
                 },
                 {
                     name: "Braided Braclet",
                     price: "$15",
                     description: "A hand braided wrist bracelet.",
-                    img: [braidedBracelet1, braidedBracelet2, braidedBracelet3, braidedBracelet4]
+                    img: [braidedBracelet1, braidedBracelet2, braidedBracelet3, braidedBracelet4],
+                    url: "https://www.amazon.com/"
                 },
                 {
                     name: "Tape Measure Clip",
                     price: "$15",
                     description: "A Tape Measure construction clip.",
-                    img: [tapeMeasureClip1, tapeMeasureClip2, tapeMeasureClip3]
+                    img: [tapeMeasureClip1, tapeMeasureClip2, tapeMeasureClip3],
+                    url: "https://www.amazon.com/"
                 },
                 {
                     img: [tapeMeasureClip3]
