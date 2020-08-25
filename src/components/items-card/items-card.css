@@ -130,6 +130,10 @@
         margin-top: 25px;
     }
 
+    .item-name {
+        opacity: 0;
+    }
+
     .right {
         margin-top: 175px;
         margin-left: 300px;

@@ -34,26 +34,16 @@ const ItemsCard = (item) => {
                 />
                 <button onClick={onRight} className="right">🡲</button>
                 <a href={item.item.url} className="buy-product" >Buy Product on Amazon</a>
-                {
-                    toggle
-                        ? (
-                            <Fragment>
-                                <span className="item-name">{item.item.name} : {item.item.price}</span>
-                            </Fragment>
-                        )
-                        : (null)
-                }
-                {
-                    toggleImage
-                        ? (
-                            <Fragment>
-                                <div className="large-image-border">
-                                    <button onClick={() => setToggleImage(false)} className="x-button">X</button>
-                                    <img className="large-image" alt="large" src={item.item.img[increment]} />
-                                </div>
-                            </Fragment>
-                        )
-                        : (null)
+                {toggle ? (<span className="item-name">{item.item.name} : {item.item.price}</span>) : (null)}
+                {toggleImage
+                    ? (<Fragment>
+                        <div className="large-image-border">
+
+                            <button onClick={() => setToggleImage(false)} className="x-button">X</button>
+                            <img className="large-image" alt="large" src={item.item.img[increment]} />
+                        </div>
+                    </Fragment>)
+                    : (null)
                 }
             </div>
         </Fragment>
