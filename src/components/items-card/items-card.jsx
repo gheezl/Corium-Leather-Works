@@ -6,20 +6,22 @@ import './items-card.css';
 const ItemsCard = (item) => {
     const [toggle, setToggle] = useState(false)
     const [toggleImage, setToggleImage] = useState(false)
-    const [increment, setIncrement] = useState(0)
+    // const [increment, setIncrement] = useState(0)
 
 
-    const onRight = () => {
-        if (increment < 2) {
-            setIncrement(increment + 1)
-        }
-    }
+    // const onRight = () => {
+    //     if (increment < 2) {
+    //         setIncrement(increment + 1)
+    //     }
+    // }
 
-    const onLeft = () => {
-        if (increment > 0) {
-            setIncrement(increment - 1)
-        }
-    }
+    // const onLeft = () => {
+    //     if (increment > 0) {
+    //         setIncrement(increment - 1)
+    //     }
+    // }
+
+    const increment = 0
 
     return (
         <Fragment>
