@@ -32,22 +32,22 @@
 
 @media only screen and (max-width: 800px) {
     .contact {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .email {
-         font-size: 12px;
+         font-size: 17px;
     }
 
     .email-address {
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .phone {
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .phone-number {
-        font-size: 12px;
+        font-size: 17px;
     }
 }

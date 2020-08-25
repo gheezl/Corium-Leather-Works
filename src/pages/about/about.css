@@ -12,11 +12,11 @@
 
 .introduction {
     padding: 50px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 800px) {
     .welcome {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
