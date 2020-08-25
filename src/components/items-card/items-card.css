@@ -35,7 +35,7 @@
 }
 
 .left {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 300px;
     margin-right: 340px;
     cursor: pointer;
@@ -51,7 +51,7 @@
 }
 
 .right {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 300px;
     margin-left: 340px;
     cursor: pointer;
