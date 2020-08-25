@@ -7,10 +7,10 @@ const Loader = () => {
     return (
         <Fragment>
             <div className="spinner-border">
-                <div class="hollow-dots-spinner">
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
+                <div className="hollow-dots-spinner">
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
                 </div>
             </div>
         </Fragment>

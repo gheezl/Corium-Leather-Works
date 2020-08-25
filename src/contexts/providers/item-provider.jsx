@@ -38,7 +38,7 @@ class ItemsProvider extends Component {
                     url: "https://www.amazon.com/"
                 },
                 {
-                    name: "Tape Measure Clip",
+                    name: "The Clipper",
                     price: "$15",
                     description: "A Tape Measure construction clip.",
                     img: [tapeMeasureClip1, tapeMeasureClip2, tapeMeasureClip3],

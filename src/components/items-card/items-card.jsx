@@ -5,6 +5,7 @@ import './items-card.css';
 
 const ItemsCard = (item) => {
     const [toggle, setToggle] = useState(false)
+    const [toggleImage, setToggleImage] = useState(false)
     const [increment, setIncrement] = useState(0)
 
 
@@ -20,7 +21,6 @@ const ItemsCard = (item) => {
         }
     }
 
-
     return (
         <Fragment>
             <div onMouseEnter={() => setToggle(true)} onMouseLeave={() => setToggle(false)} className="item-border">
@@ -29,6 +29,7 @@ const ItemsCard = (item) => {
                     className="item-image"
                     alt="item"
                     src={item.item.img[increment]}
+                    onClick={() => setToggleImage(true)}
                     width="384" height="512"
                 />
                 <button onClick={onRight} className="right">🡲</button>
@@ -38,9 +39,18 @@ const ItemsCard = (item) => {
                         ? (
                             <Fragment>
                                 <span className="item-name">{item.item.name} : {item.item.price}</span>
-                                {/* <div className="item-drop-down">
-                                    <span className="item-description">{item.item.description}</span>
-                                </div> */}
+                            </Fragment>
+                        )
+                        : (null)
+                }
+                {
+                    toggleImage
+                        ? (
+                            <Fragment>
+                                <div className="large-image-border">
+                                    <button onClick={() => setToggleImage(false)} className="x-button">X</button>
+                                    <img className="large-image" alt="large-image" src={item.item.img[increment]} />
+                                </div>
                             </Fragment>
                         )
                         : (null)

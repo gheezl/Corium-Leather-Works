@@ -13,16 +13,14 @@ const ItemsCard = lazy(() => import("../../components/items-card/items-card.jsx"
 
 const ShopPage = () => {
     const value = useContext(ItemsContext)
-
-    console.log(value)
     return (
         <Fragment>
-            <span className="shop-page-header">All Our Products</span>
+            <span className="shop-page-header">Our Products</span>
             <div className="item-map">
                 <Suspense fallback={<Loader />}>
                     {
                         value.items.map(item =>
-                            <ItemsCard item={item} />
+                            <ItemsCard item={item} key={item.name} />
                         )
                     }
                 </Suspense>
