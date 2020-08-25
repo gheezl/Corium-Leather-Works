@@ -35,9 +35,9 @@
 }
 
 .left {
-    /* position: absolute; */
+    position: absolute;
     margin-top: 300px;
-    margin-right: 340px;
+    /* margin-right: 340px; */
     cursor: pointer;
     border: none;
     border-radius: 40%;
@@ -51,9 +51,9 @@
 }
 
 .right {
-    /* position: absolute; */
+    position: absolute;
     margin-top: 300px;
-    margin-left: 340px;
+    /* margin-left: 340px; */
     cursor: pointer;
     border: none;
     border-radius: 40%;
