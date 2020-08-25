@@ -27,7 +27,7 @@ const ItemsCard = (item) => {
                 <button onClick={onLeft} className="left">🡰</button>
                 <img
                     className="item-image"
-                    alt="item"
+                    alt=""
                     src={item.item.img[increment]}
                     onClick={() => setToggleImage(true)}
                     width="384" height="512"
@@ -38,9 +38,8 @@ const ItemsCard = (item) => {
                 {toggleImage
                     ? (<Fragment>
                         <div className="large-image-border">
-
                             <button onClick={() => setToggleImage(false)} className="x-button">X</button>
-                            <img className="large-image" alt="large" src={item.item.img[increment]} />
+                            <img className="large-image" alt="" src={item.item.img[increment]} />
                         </div>
                     </Fragment>)
                     : (null)
