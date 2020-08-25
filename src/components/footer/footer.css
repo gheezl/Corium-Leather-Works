@@ -12,30 +12,22 @@
 }
 
 .footer-border {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
     color: white;
 }
 
-.email {
-    display: flex;
-    justify-content: right;
-    margin-right: 5px;
-}
-
 .email-address {
-    margin-left: 5px;
-}
-
-.phone {
     display: flex;
-    justify-content: right;
-    margin-right: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .phone-number {
-    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 800px) {

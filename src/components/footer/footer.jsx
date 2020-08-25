@@ -9,9 +9,7 @@ const Footer = () => {
             <div className="footer-header">
                 <span className="contact" >Contact</span>
                 <div className="footer-border">
-                    <span className="email">Email: </span>
                     <span className="email-address"> Corium@gmail.com</span>
-                    <span className="phone">Phone: </span>
                     <span className="phone-number" >567-987-4344</span>
                 </div>
 

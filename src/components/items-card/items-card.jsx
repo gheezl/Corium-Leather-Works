@@ -49,7 +49,7 @@ const ItemsCard = (item) => {
                             <Fragment>
                                 <div className="large-image-border">
                                     <button onClick={() => setToggleImage(false)} className="x-button">X</button>
-                                    <img className="large-image" alt="large-image" src={item.item.img[increment]} />
+                                    <img className="large-image" alt="large" src={item.item.img[increment]} />
                                 </div>
                             </Fragment>
                         )
