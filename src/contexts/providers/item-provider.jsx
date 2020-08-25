@@ -55,9 +55,6 @@ class ItemsProvider extends Component {
                 },
                 {
                     img: [braidedBracelet3]
-                },
-                {
-                    img: [tapeMeasureClip3]
                 }
             ]
         }

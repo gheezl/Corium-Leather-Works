@@ -24,7 +24,7 @@ const ItemsCard = (item) => {
     return (
         <Fragment>
             <div onMouseEnter={() => setToggle(true)} onMouseLeave={() => setToggle(false)} className="item-border">
-                <button onClick={onLeft} className="left">L</button>
+                {/* <button onClick={onLeft} className="left">L</button> */}
                 <img
                     className="item-image"
                     alt=""
@@ -32,7 +32,7 @@ const ItemsCard = (item) => {
                     onClick={() => setToggleImage(true)}
                     width="384" height="512"
                 />
-                <button onClick={onRight} className="right">R</button>
+                {/* <button onClick={onRight} className="right">R</button> */}
                 <a href={item.item.url} className="buy-product" >Buy Product on Amazon</a>
                 {toggle ? (<span className="item-name">{item.item.name} : {item.item.price}</span>) : (null)}
                 {toggleImage

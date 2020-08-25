@@ -125,6 +125,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .item-border {
+        position: relative;
+    }
+
     .item-image {
         width: 250px;
         height: 325px;
