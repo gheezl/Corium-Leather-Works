@@ -1,5 +1,6 @@
 .item-border {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
 }
