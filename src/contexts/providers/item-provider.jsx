@@ -6,7 +6,6 @@ import multiPurposeBeltLoop3 from "../../images/belt-loop/multipurpose-belt-loop
 
 import braidedBracelet1 from "../../images/bracelet/braided-bracelet-1.jpg"
 import braidedBracelet2 from "../../images/bracelet/braided-bracelet-2.jpg"
-import braidedBracelet3 from "../../images/bracelet/braided-bracelet-3.jpg"
 import braidedBracelet4 from "../../images/bracelet/braided-bracelet-4.jpg"
 
 import tapeMeasureClip1 from "../../images/tape-clip/tape-measure-clip-1.jpg"
@@ -43,18 +42,6 @@ class ItemsProvider extends Component {
                     description: "A Tape Measure construction clip.",
                     img: [tapeMeasureClip1, tapeMeasureClip2, tapeMeasureClip3],
                     url: "https://www.amazon.com/"
-                },
-                {
-                    img: [tapeMeasureClip3]
-                },
-                {
-                    img: [braidedBracelet2]
-                },
-                {
-                    img: [multiPurposeBeltLoop3]
-                },
-                {
-                    img: [braidedBracelet3]
                 }
             ]
         }
