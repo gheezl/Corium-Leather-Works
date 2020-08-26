@@ -35,38 +35,6 @@
     display: flex;
 }
 
-.left {
-    position: absolute;
-    margin-top: 300px;
-    margin-right: 340px;
-    cursor: pointer;
-    border: none;
-    border-radius: 40%;
-    padding: 10px;
-    background-color: white;
-    transition: background-color 0.5s;
-}
-
-.left:hover {
-    background-color: transparent;
-}
-
-.right {
-    position: absolute;
-    margin-top: 300px;
-    margin-left: 340px;
-    cursor: pointer;
-    border: none;
-    border-radius: 40%;
-    padding: 10px;
-    background-color: white;
-    transition: background-color 0.5s;
-}
-
-.right:hover {
-    background-color: transparent
-}
-
 .buy-product {
     position: absolute;
     font-size: 15px;
@@ -124,6 +92,34 @@
     color: white;
 }
 
+.left {
+    grid-column-start: 1;
+    margin: 300px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.right {
+    grid-column-start: 3;
+    margin: 300px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.5s;
+}
+
 @media only screen and (max-width: 800px) {
     .item-border {
         position: relative;
@@ -139,23 +135,18 @@
         opacity: 0;
     }
 
-    .right {
-        margin-top: 175px;
-        margin-right: 35px;
-    }
-
-    .left {
-        margin-top: 175px;
-        margin-left: 35px;
-    }
-
     .buy-product {
         margin-top: 290px;
         font-size: 15px;
         padding: 15px;
     }
 
+    .large-image-border {
+        grid-template-rows: 1fr 1fr;
+    }
+
     .large-image {
+        grid-row-start: 1;
         width: 315px;
         height: 400px;
         margin-top: 200px;
@@ -165,5 +156,24 @@
         font-size: 12px;
         margin-top: 210px;
         margin-left: 250px;
+    }
+    
+    .right {
+        grid-column-start: 2;
+        margin: 0;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        background-color: transparent;
+        color: white;
+    }
+
+    .left {
+        grid-column-start: 2;
+        margin: 0;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: transparent;
+        color: white;
     }
 }
