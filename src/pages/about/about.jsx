@@ -8,8 +8,14 @@ const About = () => {
         <Fragment>
             <div className="about-border">
                 <span className="welcome">Welcome</span>
-                <span className="introduction">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Gravida neque convallis a cras semper. Consectetur adipiscing elit pellentesque habitant morbi tristique. Pellentesque sit amet porttitor eget. Diam sollicitudin tempor id eu. Semper risus in hendrerit gravida rutrum. Lacinia quis vel eros donec ac odio. Nisi lacus sed viverra tellus in hac. Lacus laoreet non curabitur gravida arcu. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Suscipit tellus mauris a diam.
+                <span className="second-introduction">
+                    Hi! We are a leather crafts company that is dedicated to creating items and tools to aid you in any construction related work.
+                </span>
+                <span className="second-introduction">
+                    We have a varitey of great and affordable products like a hammer holster and a tape measure clip.
+                </span>
+                <span className="second-introduction">
+                    We hope our products will be of service!
                 </span>
             </div>
         </Fragment>
